@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "Ohio"
+  region: "us-east-2"
   app: "bdoreactapp-melvin"
   env: "bdoreactapp-melvin-env"
   bucket_name: "elasticbeanstalk-us-east-2-792844797253"
