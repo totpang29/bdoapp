@@ -10,14 +10,14 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-2"
-  app: "docker"
-  env: "Docker-env"
-  bucket_name: "elasticbeanstalk-us-west-2-306476627547"
-  bucket_path: "docker"
+  region: "Ohio"
+  app: "bdoreactapp-melvin"
+  env: "bdoreactapp-melvin-env"
+  bucket_name: "elasticbeanstalk-ap-southeast-1-792844797253"
+  bucket_path: "bdoreactapp-melvin"
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
+  access_key_id: "AKIAJBMEJAOVZ4U6GUTA" 
   secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+    secure: "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"
 
